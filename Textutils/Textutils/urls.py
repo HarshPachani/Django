@@ -19,5 +19,6 @@ from . import Views
 
 urlpatterns = [
     path('admin/', admin.site.urls),
-    path('', Views.index, name = 'index')
+    path('', Views.index, name = 'index'), #syntax path('URL', the function should be run when someone go on that URL, Path name{can be any})
+    path('about/', Views.about, name = 'about')
 ]
