@@ -2,4 +2,4 @@
 from django.http import HttpResponse
 
 def index(request):
-    pass
+    return HttpResponse("<h1>Harsh</h1>")
