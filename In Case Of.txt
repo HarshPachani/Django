@@ -1,0 +1,3 @@
+django-admin startproject "Project Name"
+cd "Project Directory Name"
+python manage.py runserver
